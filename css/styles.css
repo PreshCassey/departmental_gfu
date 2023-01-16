@@ -1,0 +1,138 @@
+a {
+	transition: .3s all ease;
+    text-decoration: none !important;
+}
+
+	a:hover, :focus {
+		text-decoration: none !important;
+		outline: none !important;
+		box-shadow: none;
+	}
+
+
+.support-button .support {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	margin-top: 7px;
+}
+.support-button .support .cont{
+    margin-left: 15px;
+    margin-top: -2px;
+}
+.support-button .support .cont p{
+    font-size: 13px;
+    color: #8a8a8a;
+    line-height: 18px
+}
+.support-button .support .cont span{
+    font-size: 18px;
+    color: #07294d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.support-button .app-button{
+    margin-left: 60px;
+}
+.sub-menu{
+    background: #07294d;
+    width: 200px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.background{
+    background: url(/images/s-3.jpg);
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+.background-info{
+    background: url(/images/bg-2.jpg);
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+.background-cy{
+    background: url(/images/page-banner-1.jpg);
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+
+.background-ma{
+    background: url(/images/page-banner-3.jpg);
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+.dept-section{
+    padding-top: 200px;
+}
+.dept{
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dept + span{
+    font-family:'Courier New', Courier, monospace;
+}
+.button_getstarted {
+    background-color: #04AA6D;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  .button_getstarted:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    padding-top: 100%;
+    padding-left: 250%;
+    margin-left: -20px!important;
+    margin-top: -100%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button_getstarted:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  .fa{
+    color: #04AA6D;
+    text-align: center;
+  }
+  .card-link{
+
+text-decoration: none;
+color: black;
+  }
+
+p a{
+    color: #cccc;
+}
+p a:hover{
+    color: #90EE90;
+}
